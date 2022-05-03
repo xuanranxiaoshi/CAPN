@@ -1,0 +1,38 @@
+common:
+  seed: 1
+  num_classes: 40
+  num_part: 50
+  npoint: 2048
+
+  batch_size: 32
+  epoch: 400
+  cosepoch: 40
+  
+  optimizer: "Adam"
+  learning_rate: 0.001
+  decay_rate: 0.0001 #0.0001 0
+  lr_decay: 0.5
+  step_size: 20
+  lr_clip: 0.00001
+
+  bn_momentum: 0.1 #0.1 0.9
+  bnm_clip: 0.01
+  bn_decay: 0.7
+
+  drop: False
+  aug_way: 'out'
+  scale_low: 0.667 #0.8 2./3
+  scale_high: 1.5 #1.25 3./2
+  shift_range: 0.2 #0.1 0.2
+
+
+
+  model: "pointnet2_cls_ssg"
+  log_dir: "pointnet2_cls_ssg2_10_2(1)"
+
+  data_root: "/mnt/data/modelnet40"
+  normal: True
+
+  gpu: '0,1'
+
+  checkpoint: "best_normal_model.pth"

@@ -1,0 +1,14 @@
+setup.py
+/mnt/project14/pointnet2_ops/src/ball_query.cpp
+/mnt/project14/pointnet2_ops/src/ball_query_gpu.cu
+/mnt/project14/pointnet2_ops/src/bindings.cpp
+/mnt/project14/pointnet2_ops/src/group_points.cpp
+/mnt/project14/pointnet2_ops/src/group_points_gpu.cu
+/mnt/project14/pointnet2_ops/src/interpolate.cpp
+/mnt/project14/pointnet2_ops/src/interpolate_gpu.cu
+/mnt/project14/pointnet2_ops/src/sampling.cpp
+/mnt/project14/pointnet2_ops/src/sampling_gpu.cu
+pointnet2_ops.egg-info/PKG-INFO
+pointnet2_ops.egg-info/SOURCES.txt
+pointnet2_ops.egg-info/dependency_links.txt
+pointnet2_ops.egg-info/top_level.txt
